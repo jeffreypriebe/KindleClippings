@@ -10,6 +10,7 @@ namespace KindleClippings
     {
         Highlight,
         Note,
-        Bookmark
+        Bookmark,
+        Clipping
     }
 }
