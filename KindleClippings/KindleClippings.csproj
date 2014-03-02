@@ -50,6 +50,11 @@
     <Compile Include="ClippingOrganizer.cs" />
     <Compile Include="ClippingTypeEnum.cs" />
     <Compile Include="MyClippingsParser.cs" />
+    <Compile Include="MyClippingsParserHelpers\LocationParserHelpers\LocationBase.cs" />
+    <Compile Include="MyClippingsParserHelpers\LocationParserHelpers\ILocation.cs" />
+    <Compile Include="MyClippingsParserHelpers\LocationParserHelpers\Location.cs" />
+    <Compile Include="MyClippingsParserHelpers\LocationParserHelpers\LocationShort.cs" />
+    <Compile Include="MyClippingsParserHelpers\LocationParserHelpers\PageNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
