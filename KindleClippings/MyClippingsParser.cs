@@ -54,13 +54,13 @@ namespace KindleClippings
                         switch (clippingLineNumber)
                         {
                             case 1:
-                                ParseLine1(line, clipping);
+                                ParseLine1_AuthorTitle(line, clipping);
                                 break;
                             case 2:
-                                ParseLine2(line, clipping);
+                                ParseLine2_Location(line, clipping);
                                 break;
                             case 4:
-                                ParseLine4(line, clipping);
+                                ParseLine4_ClippingContent(line, clipping);
                                 break;
                         }
                     }
@@ -74,7 +74,7 @@ namespace KindleClippings
             return clippings;
         }
 
-        private static void ParseLine1(string line, Clipping clipping)
+        private static void ParseLine1_AuthorTitle(string line, Clipping clipping)
         {
             var match = Regex.Match(line, Line1RegexPattern);
             if (match.Success)
@@ -91,7 +91,7 @@ namespace KindleClippings
             }
         }
 
-        private static void ParseLine2(string line, Clipping clipping)
+        private static void ParseLine2_Location(string line, Clipping clipping)
         {
             var split = line.Split(' ');
 
@@ -137,7 +137,7 @@ namespace KindleClippings
             clipping.DateAdded = dateAdded;
         }
 
-        private static void ParseLine4(string line, Clipping clipping)
+        private static void ParseLine4_ClippingContent(string line, Clipping clipping)
         {
             clipping.Text = line.Trim();
         }
