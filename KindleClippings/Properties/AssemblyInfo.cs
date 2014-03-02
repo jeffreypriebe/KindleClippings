@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("KindleClippings")]
 [assembly: AssemblyDescription(".NET parser for the Amazon Kindle's \"My Clippings.txt\" file")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Ed Ryan")]
+[assembly: AssemblyCompany("Ed Ryan, Jeffrey Priebe")]
 [assembly: AssemblyProduct("KindleClippings")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
@@ -32,4 +32,4 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.1.*")]
+[assembly: AssemblyVersion("0.2.*")]

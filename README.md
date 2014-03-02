@@ -1,6 +1,8 @@
 KindleClippings
 ===============
 
+Currently works against latest Kindle 5 Clipping file format.
+
 .NET parser for the Amazon Kindle's "My Clippings.txt" file.
 
 The solution has two components, a library (KindleClippings) and GUI (KindleClippingsGUI) which provides a sample front-end for the library.
@@ -19,6 +21,8 @@ __Library__
 
 __GUI__
 
+(No Changes to GUI expected in this project.)
+
 1. Connect your Kindle to your PC as a USB drive
 1. Copy "My Clippings.txt" from your Kindle (optional)
 2. Build/Run the GUI
@@ -31,12 +35,4 @@ __GUI__
 TODO
 ----
 
-- GUI: Minor improvements to interface, including background colors (Clipping Form)
-- Export functionality
-- Calibre integration?
-- Document the library
-- Some kind of installer and publishing mechanism
-- Automated test suite
-- Ensure that this works with all Kindle devices (so far tested only on output from Kindle Touch running various firmware versions)
-- Pull data directly from Kindle by Reading MBS files???
-- Move pulling from Kindle functionality from GUI to library?
+See Original Project.

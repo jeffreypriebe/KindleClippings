@@ -51,8 +51,8 @@ namespace KindleClippingsGUI
             var fileTab = CreateFromFileTab();
             var deviceTab = CreateFromDeviceTab();
 
-            _tabGroup.TabPages.Add(fileTab);
             _tabGroup.TabPages.Add(deviceTab);
+            _tabGroup.TabPages.Add(fileTab);
 
             layout.AddRow(_tabGroup);
 
